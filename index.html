@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="icon" href="IMG/icon.webp">
+
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+
+            <div class="container-fluid">
+
+                <button data-mdb-collapse-init class="navbar-toggler" type="button"
+                    data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#sobre">Sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projetos">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="video-container">
+            <video autoplay muted loop playsinline style="width: 100%; height: 400px; object-fit: cover;">
+                <source src="IMG/Vídeo-Principal.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+        </div>
+    </header>
+
+    <!-- Mensagem Sobre Mim parte superior do portfolio -->
+    <section id="sobre" class="container py-5">
+        <h2 class="text-center">Sobre Mim</h2>
+        <p class="text-center">Olá! Meu nome é Cesar Nascimento, sou desenvolvedor web iniciante com interesse em criar
+            sites modernos e
+            funcionais. Este é meu portfólio onde compartilho minhas habilidades e projetos.</p>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="container py-5">
+        <h2 class="text-center">Projetos</h2>
+        <div id="carouselProjetos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="IMG/WireFrame-Site-de-pet_pc01.jpg" class="d-block w-100" alt="Projeto 1">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="IMG/WireFrame-Site-de-pet_pc02.jpg" class="d-block w-100" alt="Projeto 2">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="IMG/WireFrame-Site-de-pet_pc03.jpg" class="d-block w-100" alt="Projeto 2">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="IMG/WireFrame-Site-de-pet_pc04.jpg" class="d-block w-100" alt="Projeto 2">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div><br><br>
+
+        <div class="text-center">
+            <p>Veja o projeto com mais detalhe nesse link <a
+                    href="https://www.figma.com/design/qj3vu6xXKT0ZE9NynCxmBZ/WireFrame---Site-de-pet?node-id=0-1&t=ANL7dUA8QneCddz5-1"
+                    target="_blank">aqui!</a></p><br>
+
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                src="https://embed.figma.com/proto/qj3vu6xXKT0ZE9NynCxmBZ/WireFrame---Site-de-pet?node-id=1-1255&starting-point-node-id=1%3A1255&embed-host=share"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Seção de Madais -->
+    <section class="py-5">
+        <div class=" container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Sobre Mim</h3>
+                    <p>
+                        Sou apaixonado por tecnologia e sempre busco aprender algo novo. Meu foco é criar soluções que
+                        sejam práticas, eficientes e que realmente façam a diferença para as pessoas.
+                    </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#modalservico1">Leia mais..</button>
+                </div>
+                <div class="col-md-4">
+                    <h3>Projetos</h3>
+                    <p>
+                        Meus projetos refletem minha jornada como desenvolvedor, unindo criatividade e funcionalidade.
+                        Cada trabalho é uma oportunidade de superar desafios e aprender mais sobre desenvolvimento web.
+                    </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#modalservico2">Leia mais..</button>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contato</h3>
+                    <p>
+                        Vamos conversar? Estou à disposição para trocar ideias, colaborar em projetos ou responder suas
+                        dúvidas. Entre em contato e vamos construir algo incrível juntos!
+                    </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#modalservico3">Leia mais..</button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Primeiro Moadal-->
+
+    <div class="modal fade" id="modalservico1" tabindex="-1" aria-labelledby="modalServico1Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalServico1Label">Mais Informações Sobre mim</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Olá! Sou Cesar Nascimento, um desenvolvedor web iniciante com paixão por criar soluções
+                        modernas e intuitivas.
+                        Meu objetivo é desenvolver projetos inovadores que conectem pessoas e facilitem o dia a dia.
+                        Amo explorar novas tecnologias,
+                        aprender continuamente e colaborar com outros desenvolvedores para criar experiências
+                        incríveis na web</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Segundo modal -->
+
+    <div class="modal fade" id="modalservico2" tabindex="-1" aria-labelledby="modalServico1Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalServico1Label">Mais Informações Sobre o Projeto na tela inicial
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Projeto: WireFrame para Site de PET</h6>
+                    <p>Este projeto foi criado para explorar o design e funcionalidade de um site voltado para pet
+                        shops.
+                        Utilizei ferramentas como Figma para o design e prototipagem mas futuramente vou usar minhas
+                        habilidades e conhecimento em HTML/CSS/Bootstrap para criar um protótipo com maior imersividade
+                        com
+                        o projeto. A
+                        ideia principal
+                        foi desenvolver uma interface amigável para clientes acessarem produtos e serviços
+                        relacionados a pets.</p>
+                    <p><strong>Tecnologias usadas:</strong> Figma</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terceiro modal -->
+
+    <div class="modal fade" id="modalservico3" tabindex="-1" aria-labelledby="modalServico1Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalServico1Label">Mais Informações de Contato</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Se você deseja entrar em contato comigo para projetos, parcerias ou dúvidas, utilize uma das
+                        opções abaixo:</p>
+                    <ul>
+                        <li><strong>Email:</strong> cesar.nascimento1@hotmail.com</li>
+                        <li><strong>Telefone:</strong> (31) 97345-9040</li>
+                        <li><strong>Redes Sociais:</strong> <a href="https://www.instagram.com/cesarnasci1/"
+                                target="_blank">Instagram</a> <a
+                                href="https://www.linkedin.com/in/cesar-nascimento-4493b720a/"
+                                target="_blank">Linkedin</a>
+                            <a href="https://github.com/Warghostt" target="_blank">Github</a>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção Habilidades -->
+    <section id="habilidades" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Habilidades</h2>
+            <ul class="list-unstyled text-center">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Figma</li>
+                <li>Bootstrap</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="container py-5">
+        <h2 class="text-center">Contato</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- seção footer -->
+    <footer class="bg-body-tertiary text-center">
+
+        <div class="container p-4 pb-0 social-icons">
+
+            <section class="mb-4">
+
+                <!-- Instagram -->
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+                    href="https://www.instagram.com/cesarnasci1/" role="button" target="_blank"><i
+                        class="bi bi-instagram" target="_blank"></i></a>
+
+                <!-- Linkedin -->
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+                    href="https://www.linkedin.com/in/cesar-nascimento-4493b720a/" role="button" target="_blank"><i
+                        class="bi bi-linkedin"></i></a>
+                <!-- Github -->
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;"
+                    href="https://github.com/Warghostt" role="button" target="_blank"><i class="bi bi-github"></i></a>
+
+            </section>
+
+        </div>
+
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            <p> &copy; 2024 portfólio - Todos os Direitos Reservados a Cesar Nascimento</p>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
